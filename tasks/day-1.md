@@ -42,7 +42,7 @@ venv\Scripts\Activate.ps1
 
 **Признаки успеха:**  
 - В терминале появится префикс `(venv)` перед путём.  
-  Пример: `(venv) C:\Users\Oleg\my_bot>`  
+  Пример: `(venv) C:\Users\Oleg\pytelegrambot>`  
 - Все установки пакетов через `pip` будут применяться **только к этому окружению**.
 
 > ⚠️ Если вы видите ошибку «cannot be loaded because running scripts is disabled», вернитесь к шагу 2 и убедитесь, что политика выполнения изменена.
@@ -67,7 +67,7 @@ pip install pyTelegramBotAPI python-dotenv
 
 ### 5. Создание структуры проекта  
 
-В папке `my_bot` создайте два файла:
+В папке `pytelegrambot` создайте два файла:
 
 #### Файл `.env`  
 (без расширения! просто `.env`)
