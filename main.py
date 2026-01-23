@@ -36,7 +36,6 @@ def send_caps(message):
     msg = message.text[6:].strip() # /caps сообщение
     bot.reply_to(message, msg.upper())
 
-
 @bot.message_handler(func=lambda message: True)
 def echo_all(message):
     user_message = message.text.strip()
