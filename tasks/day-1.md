@@ -5,12 +5,7 @@
 
 ## 📁 Шаг 1. Создание проекта
 
-Откройте PowerShell и выполните:
-
-```powershell
-mkdir pytelegrambot
-cd pytelegrambot
-```
+Откройте и создайте папку `pytelegrambot` в `Visual Studio Code`.
 
 Теперь вы находитесь в папке `pytelegrambot`.
 
